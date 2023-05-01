@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+
+* {
+    letter-spacing: -0.02em;
+}
+
+article {
+    padding-top: 5rem;
+}
+
+.text-white-70 {
+    color: rgba(255, 255, 255, 0.7) !important;
+}
