@@ -31,9 +31,14 @@ const swiper = new Swiper(".swiper-container", {
         this.allowSlidePrev = true;
       }
     },
+    scroll : function(){
+      if(this.realIndex == 0){
+        this.allowSlidePrev = false;
+      } else {
+        this.allowSlidePrev = true;
+      }
+    },
     slideChange : function() {
-      console.log(this);
-
       currentSlide = this.activeIndex;
       navColorChange(currentSlide);
     }
