@@ -25,10 +25,15 @@ const swiper = new Swiper(".swiper-container", {
   mousewheel : true,
   on : {
     touchMove : function(){
-      if(this.realIndex == 0)
+      if(this.realIndex == 0){
         this.allowSlidePrev = false;
+      } else {
+        this.allowSlidePrev = true;
+      }
     },
     slideChange : function() {
+      console.log(this);
+
       currentSlide = this.activeIndex;
       navColorChange(currentSlide);
     }
