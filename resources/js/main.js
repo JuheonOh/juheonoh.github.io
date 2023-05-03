@@ -23,6 +23,7 @@ const swiper = new Swiper(".swiper-container", {
   speed : 500,
   direction : "vertical",
   mousewheel : true,
+  slidesPerView : 1,
   on : {
     touchMove : function(){
       if(this.realIndex == 0){
