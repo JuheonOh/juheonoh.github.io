@@ -15,8 +15,9 @@ const navColorChange = (currentSlide) => {
   } else {
     $("#nav").addClass("navbar-scroll");
     $("ul.navbar-nav li a").removeClass("active");
-    $("ul.navbar-nav li a")
+    $("ul.navbar-nav li")
       .eq(currentSlide - 1)
+      .children("a")
       .addClass("active");
   }
 };
