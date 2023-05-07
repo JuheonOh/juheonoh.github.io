@@ -23,6 +23,10 @@ article h2 span {
   padding-bottom: 0.25rem;
 }
 
+.fa-link {
+  cursor: pointer;
+}
+
 .text-white-70 {
   color: rgba(255, 255, 255, 0.7) !important;
 }
