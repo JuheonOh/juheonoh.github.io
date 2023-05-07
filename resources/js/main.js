@@ -14,6 +14,7 @@ const navColorChange = (currentSlide) => {
     $("ul.navbar-nav li a").removeClass("active");
   } else {
     $("#nav").addClass("navbar-scroll");
+    $("ul.navbar-nav li a").removeClass("active");
     $("ul.navbar-nav li a")
       .eq(currentSlide - 1)
       .addClass("active");
