@@ -9,12 +9,12 @@ const handleSlideMove = (slideNumber) => {
 };
 
 const navColorChange = (currentSlide) => {
+  $("ul.navbar-nav li a").removeClass("active");
+
   if (currentSlide == 0) {
     $("#nav").removeClass("navbar-scroll");
-    $("ul.navbar-nav li a").removeClass("active");
   } else {
     $("#nav").addClass("navbar-scroll");
-    $("ul.navbar-nav li a").removeClass("active");
     $("ul.navbar-nav li")
       .eq(currentSlide - 1)
       .children("a")
@@ -23,9 +23,10 @@ const navColorChange = (currentSlide) => {
 };
 
 const swiper = new Swiper(".swiper-container", {
-  speed: 500,
+  speed: 800,
   direction: "vertical",
   mousewheel: true,
+  keyboard: true,
   slidesPerView: "auto",
   on: {
     touchMove: function () {
