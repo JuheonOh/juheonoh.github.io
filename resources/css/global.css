@@ -1,29 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
 
 * {
-    letter-spacing: -0.02em;
+  letter-spacing: -0.02em;
+}
+
+article {
+  padding-top: 5rem;
 }
 
 article h2 {
-    font-family: 'Noto Sans KR', sans-serif;
-    font-size:3rem;
-    font-weight:1000;
-    display:flex;
-    align-items: center;
-    justify-content: center;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 3rem;
+  font-weight: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 article h2 i {
-    font-size:2rem;
-    margin-right:1rem;
+  font-size: 2rem;
+  margin-right: 1rem;
 }
 
 article h2 span {
-    border-bottom: 0.2rem solid #eee;
-    padding-bottom:0.25rem;
+  border-bottom: 0.2rem solid #eee;
+  padding-bottom: 0.25rem;
 }
 
 .text-white-70 {
-    color: rgba(255, 255, 255, 0.7) !important;
+  color: rgba(255, 255, 255, 0.7) !important;
 }
