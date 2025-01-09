@@ -20,7 +20,7 @@ export default function Footer() {
         </div>
         <div className="w-1/3">
           <p className="text-xs text-gray-400 text-end font-sans">
-            powered by <a href="https://github.com/juheonoh" className="text-blue-500 hover:underline">JuheonOh</a> | 2025
+            powered by <a href="https://github.com/eliottvincent/bay" className="text-blue-500 hover:underline">Bay</a> | 2025
           </p>
         </div>
       </div>
